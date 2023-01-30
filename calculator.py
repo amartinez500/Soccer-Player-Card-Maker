@@ -1,6 +1,6 @@
 import math
 import random
-my_list = 
+my_list = list(range(10,100,1)) 
 
 #Pace
 def pace(list1):
