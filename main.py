@@ -1,6 +1,6 @@
 # Arturo Martinez - Pace, Shooting, and Passing
 # Erick Gutierrez - Dribbling, Defending, and Physical
-from calculator import pace, dribbling
+from calculator import*
 import math
 import random
 
@@ -11,5 +11,6 @@ print("LB,RB,CB,LWB,RWB,CDM,CM,CAM,LM,RM,LW,RW,CF,ST")
 position = input("What position do want him to be? The positions are listed above↑").lower()
 
 
-pace()
+pace(list1)
+dribbling_stats()
 
