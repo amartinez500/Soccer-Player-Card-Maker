@@ -3,7 +3,7 @@ import random
 my_list = list(range(10,100,1)) 
 
 #Pace
-def pace(list1):
+def pace(my_list):
   print("Enter a number from 10 - 99, the higher the number the better!")
   acceleration = int(input("Acceleration: "))
   sprint_speed = int(input("Sprint Speed: "))
@@ -31,11 +31,10 @@ def pace(list1):
   # Dribbling
 dribbling_list = [] 
 max_length = 6
-# dribbling_input = int(input("Enter your player's agility, balance, reactions, ball control, dribbling, and composure in this order."))
 
-def dribbling_stats(dribbling_values, dribbling_list, max_length, dribbling_input, sum):
+def dribbling_stats(dribbling_list, max_length, sum):
   while True:
-    print(dribbling_input)
+    dribbling_input = int(input("Enter your player's agility, balance, reactions, ball control, dribbling, and composure in this order."))
     while len(dribbling_list) <= max_length:
       dribbling_list.append(dribbling_input)
   print(f"Your dribbling inputs: {dribbling_list} ")

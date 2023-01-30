@@ -11,6 +11,6 @@ print("LB,RB,CB,LWB,RWB,CDM,CM,CAM,LM,RM,LW,RW,CF,ST")
 position = input("What position do want him to be? The positions are listed above↑").lower()
 
 
-pace(list1)
-dribbling_stats()
+pace(my_list)
+dribbling_stats(dribbling_list, max_length, sum)
 
