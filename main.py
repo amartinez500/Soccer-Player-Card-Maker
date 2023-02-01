@@ -10,7 +10,7 @@ player = input("What is the players name?").lower()
 print("LB,RB,CB,LWB,RWB,CDM,CM,CAM,LM,RM,LW,RW,CF,ST")
 position = input("What position do want him to be? The positions are listed above↑").lower()
 
-
-pace(my_list)
+name_position()
+pace(list1)
 dribbling_stats(dribbling_list, max_length, sum)
 
